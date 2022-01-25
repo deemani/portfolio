@@ -1,5 +1,5 @@
 # Deepak's Data Portfolio
-This repository holds a sample of theprojects I've worked on, exploring a variety of topics.
+This repository holds a sample of the projects I've worked on, exploring a variety of topics.
 
 The README file provides overviews, takeaways, and graphics of specific projects. If you would like to review the code or data for yourself, please take a look at the project folders. All data sources are credited in code files.
 
