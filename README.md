@@ -1,4 +1,9 @@
 # Deepak's Data Portfolio
+This repository holds a sample of theprojects I've worked on, exploring a variety of topics.
+
+The README file provides overviews, takeaways, and graphics of specific projects. If you would like to review the code or data for yourself, please take a look at the project folders. All data sources are credited in code files.
+
+The work_examples folder contains code from projects I have worked on professionally.
 
 # World Happiness & Urbanization (Data Exploration)
  * Investigated how urbanization correlates to happiness globally.
