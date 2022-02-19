@@ -22,7 +22,7 @@ The work_examples folder contains code from projects I have worked on profession
 ![west_compare_plot](https://user-images.githubusercontent.com/37217825/151028141-ed80b274-48d3-47fe-a249-85193443672e.png)
 
 
-# Global changes in Working Hours and Wealth (Clustering)
+# Working Hours and Wealth (Clustering)
 - Change in global work hours and national wealth over a 20 year period
     - Analyzed the global relationship between productivity (working hours) and national wealth (GDP per capita) from 1997 - 2017.
     - Comparing change in GDP per capita against change in work hours two different ways
