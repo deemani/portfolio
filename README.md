@@ -5,7 +5,7 @@ The README file provides overviews, takeaways, and graphics of specific projects
 
 The work_examples folder contains code from projects I have worked on professionally.
 
-# World Happiness & Urbanization (Data Exploration)
+# World Happiness & Urbanization (Data Exploration/Visualization)
  * Investigated how urbanization correlates to happiness globally.
     - Initial hypothesis: Countries that urbanized more over the last decade are more likely to report increased happiness.
     - Result: no discernible correlation between happiness and increased urbanization over last decade
