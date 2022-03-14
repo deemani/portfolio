@@ -1,5 +1,5 @@
 # Deepak's Data Portfolio
-This repository holds a sample of the projects I've worked on, exploring a variety of topics.
+This repository holds a sample of the projects I've worked on personally & professionally, exploring a variety of topics.
 
 **Projects**:
 - [NBA Shot Location Dashboard Application](https://github.com/deemani/portfolio/tree/main/nba_shot_loc)
@@ -7,4 +7,4 @@ This repository holds a sample of the projects I've worked on, exploring a varie
 - [Global Productivity & Wealth Clustering Analysis](https://github.com/deemani/portfolio/tree/main/wrk_hrs_and_wealth)
 - [Professional Code Examples](https://github.com/deemani/portfolio/tree/main/work_examples)
 
-The README files in the respective directories provide overviews, insights, and graphics of specific projects.
+The README files in each directory provide overviews, insights, links, and graphics for each project.
