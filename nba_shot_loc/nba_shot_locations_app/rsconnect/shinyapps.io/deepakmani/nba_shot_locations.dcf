@@ -1,0 +1,14 @@
+name: nba_shot_locations
+title: nba_shot_locations
+username:
+account: deepakmani
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5843326
+bundleId: 5678877
+url: https://deepakmani.shinyapps.io/nba_shot_locations/
+when: 1647213539.49825
+lastSyncTime: 1647213539.49826
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData
