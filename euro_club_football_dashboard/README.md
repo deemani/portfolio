@@ -1,6 +1,6 @@
 # **European Football Club Performance Dashboard**
 ## Overview
-[This interactive dashboard]((https://public.tableau.com/app/profile/deepak.mani6452/viz/EuropeanClubFootballGoalProgressionDashboard/GoalProgressionDashboard)) provides a comprehensive analysis of the performance progression for football clubs across the top five European leagues (England, Germany, France, Spain, and Italy). It focuses on four key metrics: goals scored, goals conceded, expected goals scored (xG), and expected goals conceded (xGA). The dashboard allows users to select a specific team and view their progression in these metrics on a game-by-game basis throughout the season.
+[This interactive dashboard](https://public.tableau.com/app/profile/deepak.mani6452/viz/EuropeanClubFootballGoalProgressionDashboard/GoalProgressionDashboard) provides a comprehensive analysis of the performance progression for football clubs across the top five European leagues (England, Germany, France, Spain, and Italy). It focuses on four key metrics: goals scored, goals conceded, expected goals scored (xG), and expected goals conceded (xGA). The dashboard allows users to select a specific team and view their progression in these metrics on a game-by-game basis throughout the season.
 
 ## Features
 - Interactive visualization of cumulative performance metrics for each club.
