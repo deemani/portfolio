@@ -4,8 +4,8 @@ This directory holds the code and files I used to construct the [European Club F
 
 <img width="789" alt="image" src="https://github.com/deemani/portfolio/assets/37217825/7b14dfec-250a-470a-89f0-ec92a5761c85">
 
-# **[European Football Club Performance Dashboard]**(https://public.tableau.com/app/profile/deepak.mani6452/viz/EuropeanClubFootballGoalProgressionDashboard/GoalProgressionDashboard)
-Overview
+# **[European Football Club Performance Dashboard]**
+# Overview
 This interactive dashboard provides a comprehensive analysis of the performance progression for football clubs across the top five European leagues (England, Germany, France, Spain, and Italy). It focuses on four key metrics: goals scored, goals conceded, expected goals scored (xG), and expected goals conceded (xGA). The dashboard allows users to select a specific team and view their progression in these metrics on a game-by-game basis throughout the season.
 
 Features
