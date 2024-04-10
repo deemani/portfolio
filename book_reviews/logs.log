@@ -1,0 +1,3 @@
+2024-04-01 10:38:09,740:WARNING:/Users/deepakmani/anaconda3/lib/python3.11/site-packages/mlxtend/frequent_patterns/fpcommon.py:109: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+
