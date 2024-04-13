@@ -2,12 +2,17 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import streamlit as st
+import book_functions as bf
 
-# import the reviews data
-reviews = pd.read_csv('clean_data/book_reviews.csv')
+# create list of file paths
+paths = ['clean_data/book_reviews.csv.zip', 'clean_data/titles_authors.csv.zip']
 
-# import the authors & book titles data
-book_titles = pd.read_csv('clean_data/titles_authors.csv')
+# set the outputs 
+for path in paths:
+    if 'book_reviews' in path:
+        reviews = bf.read_zip_csv(path)
+    else:
+        book_titles = bf.read_zip_csv(path)
 
 # from books_info, we only need the Title, authors, categories
 books_info = book_titles[['Title', 'Author']]

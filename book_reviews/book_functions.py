@@ -1,13 +1,31 @@
 import pandas as pd 
 import numpy as np
+import zipfile
+
+# function to open and unzip large csv file
+def read_zip_csv(zip_file_path):
+    # ppen the ZIP file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+        # extract it
+        zip_info = zip_ref.infolist()[0]
+        # extract the file to a temporary location
+        zip_ref.extract(zip_info)
+        #rRead the extracted file into a DataFrame
+        df = pd.read_csv(zip_info.filename)
+    
+    return df
 
 # create a function that takes in a search term and search type and returns a DataFrame of recommended books
 def process_search_term(search_term, search_type):
-    # import the reviews data
-    reviews = pd.read_csv('clean_data/book_reviews.csv')
 
-    # import the authors & book titles data
-    book_titles = pd.read_csv('clean_data/titles_authors.csv')
+    # create list of file paths
+    paths = ['clean_data/book_reviews.csv.zip', 'clean_data/titles_authors.csv.zip']
+    # set the outputs 
+    for path in paths:
+        if 'book_reviews' in path:
+            reviews = read_zip_csv(path)
+        else:
+            book_titles = read_zip_csv(path)
 
     # fix the Author column to remove the [' and '] around the author names
     reviews['Author'] = reviews['Author'].str.replace("['", '').str.replace("']", '')
