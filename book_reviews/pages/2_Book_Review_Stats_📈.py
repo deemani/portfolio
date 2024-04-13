@@ -4,15 +4,16 @@ import plotly.express as px
 import streamlit as st
 import book_functions as bf
 
-# create list of file paths
-paths = ['book_reviews.csv.zip', 'titles_authors.csv.zip']
+# githubs urls for the data:
+paths = ['https://github.com/deemani/portfolio/raw/main/book_reviews/book_reviews.csv.zip',
+         'https://github.com/deemani/portfolio/raw/main/book_reviews/titles_authors.csv.zip']
 
-# set the outputs 
+# loop to extract the data from the zip files
 for path in paths:
-    if 'book_reviews' in path:
-        reviews = bf.read_zip_csv(path)
+    if 'book_reviews/book_reviews' in path:
+        reviews = bf.extract_zip_to_dataframe(path)
     else:
-        book_titles = bf.read_zip_csv(path)
+        book_titles = bf.extract_zip_to_dataframe(path)
 
 # from books_info, we only need the Title, authors, categories
 books_info = book_titles[['Title', 'Author']]

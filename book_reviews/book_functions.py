@@ -1,31 +1,35 @@
 import pandas as pd 
 import numpy as np
-import zipfile
+import requests
+from zipfile import ZipFile
+import pandas as pd
+from io import BytesIO
 
-# function to open and unzip large csv file
-def read_zip_csv(zip_file_path):
-    # ppen the ZIP file
-    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-        # extract it
-        zip_info = zip_ref.infolist()[0]
-        # extract the file to a temporary location
-        zip_ref.extract(zip_info)
-        #rRead the extracted file into a DataFrame
-        df = pd.read_csv(zip_info.filename)
+def extract_zip_to_dataframe(url):
+    # download the zip file from the github url
+    response = requests.get(url)
+    with ZipFile(BytesIO(response.content)) as zip_file:
+        # only 1 csv in the zipped files
+        csv_file = zip_file.namelist()[0]
+        with zip_file.open(csv_file) as csv_data:
+            # read the csv file into a DataFrame
+            df = pd.read_csv(csv_data)
     
     return df
 
 # create a function that takes in a search term and search type and returns a DataFrame of recommended books
 def process_search_term(search_term, search_type):
 
-    # create list of file paths
-    paths = ['book_reviews.csv.zip', 'titles_authors.csv.zip']
-    # set the outputs 
+    # githubs urls for the data:
+    paths = ['https://github.com/deemani/portfolio/raw/main/book_reviews/book_reviews.csv.zip',
+             'https://github.com/deemani/portfolio/raw/main/book_reviews/titles_authors.csv.zip']
+
+    # loop to extract the data from the zip files
     for path in paths:
-        if 'book_reviews' in path:
-            reviews = read_zip_csv(path)
+        if 'book_reviews/book_reviews' in path:
+            reviews = extract_zip_to_dataframe(path)
         else:
-            book_titles = read_zip_csv(path)
+            book_titles = extract_zip_to_dataframe(path)
 
     # fix the Author column to remove the [' and '] around the author names
     reviews['Author'] = reviews['Author'].str.replace("['", '').str.replace("']", '')
