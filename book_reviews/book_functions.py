@@ -19,7 +19,7 @@ def read_zip_csv(zip_file_path):
 def process_search_term(search_term, search_type):
 
     # create list of file paths
-    paths = ['./data/book_reviews.csv.zip', './data/titles_authors.csv.zip']
+    paths = ['data/book_reviews.csv.zip', 'data/titles_authors.csv.zip']
     # set the outputs 
     for path in paths:
         if 'book_reviews' in path:
