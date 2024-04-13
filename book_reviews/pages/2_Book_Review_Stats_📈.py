@@ -5,7 +5,7 @@ import streamlit as st
 import book_functions as bf
 
 # create list of file paths
-paths = ['data/book_reviews.csv.zip', 'data/titles_authors.csv.zip']
+paths = ['.data/book_reviews.csv.zip', '.data/titles_authors.csv.zip']
 
 # set the outputs 
 for path in paths:
