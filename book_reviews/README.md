@@ -13,6 +13,7 @@ There are additional insights on the page [Book Review Stats 📈](https://deepa
 - Top 100 books by count of reviews and average score.
 - Top 10 authors by total reviews, with a breakdown of their reviews by book title.
 - Top 100 non-fiction books.
+  
 ![image](https://github.com/deemani/portfolio/assets/37217825/fc12f09a-6da7-4978-a2dc-7759ff438dba)
 
 
