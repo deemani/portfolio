@@ -9,20 +9,12 @@
 - Ability to compare a team's performance against different opponents and assess overall season performance.
 
 ## Usage
-- Open the dashboard in Tableau Public or any compatible Tableau software.
 - Select a football club from the dropdown menu to view its performance metrics.
 - Navigate through the dashboard to explore the club's progression in goals scored, goals conceded, xG, and xGA.
-- Utilize filters and tooltips for additional insights and analysis.
-- Experiment with different visualizations and interactions to gain a deeper understanding of the data.
-
-## Key Takeaways
-- Analyze a team's overall season performance by tracking its cumulative goals scored, goals conceded, xG, and xGA.
-- Identify trends and patterns in performance fluctuations over the course of the season.
-- Evaluate a team's performance against specific opponents and assess strengths and weaknesses in different matchups.
+- The visualization includes the ability to animate plotting of metrics according to dates.
 
 ## Data Sources
-The data used in this dashboard is sourced from reliable football statistics databases, including but not limited to:
-FBref
+The data used in this dashboard is sourced from FBref
 
 <img width="789" alt="image" src="https://github.com/deemani/portfolio/assets/37217825/7b14dfec-250a-470a-89f0-ec92a5761c85">
 
