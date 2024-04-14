@@ -13,9 +13,9 @@ The  [Book Recommendation Tool ⚙](https://deepaksbookrecommendationtool.stream
 
 There are additional insights available on the [Book Review Stats 📈](https://deepaksbookrecommendationtool.streamlit.app/Book_Review_Stats_%F0%9F%93%88):
 
-Top 100 books by count of reviews and average score.
-Top 10 authors by total reviews, with a breakdown of their reviews by book title.
-Top 100 non-fiction books.
+- Top 100 books by count of reviews and average score.
+- Top 10 authors by total reviews, with a breakdown of their reviews by book title.
+- Top 100 non-fiction books.
 
 ![image](https://github.com/deemani/portfolio/assets/37217825/fc12f09a-6da7-4978-a2dc-7759ff438dba)
 
