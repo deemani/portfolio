@@ -5,7 +5,7 @@ The [My Book Recommendation Tool](https://deepaksbookrecommendationtool.streamli
 
 ## Features
 
-The  [Book Recommendation_Tool ⚙](https://deepaksbookrecommendationtool.streamlit.app/Book_Recommendation_Tool_%E2%9A%99%EF%B8%8F) recommends books based on the user's input. Input either an author's name or a book title to receive recommendations of 10 similar books based on Amazon user book reviews.
+The  [Book Recommendation Tool ⚙](https://deepaksbookrecommendationtool.streamlit.app/Book_Recommendation_Tool_%E2%9A%99%EF%B8%8F) recommends books based on the user's input. Input either an author's name or a book title to receive recommendations of 10 similar books based on Amazon user book reviews.
 
 ![image](https://github.com/deemani/portfolio/assets/37217825/d6373405-d49e-4fb4-85b2-8611469f6550)
 ![image](https://github.com/deemani/portfolio/assets/37217825/bbe0c85c-3c2a-44a0-95b2-cfceea209cc3)
