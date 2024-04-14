@@ -6,10 +6,15 @@ The [Book Recommendation_Tool ⚙](https://deepaksbookrecommendationtool.streaml
 Input either an author's name or a book title.
 Receive recommendations of 10 similar books based on Amazon user book reviews.
 
+![image](https://github.com/deemani/portfolio/assets/37217825/d6373405-d49e-4fb4-85b2-8611469f6550)
+![image](https://github.com/deemani/portfolio/assets/37217825/bbe0c85c-3c2a-44a0-95b2-cfceea209cc3)
+
 There are additional insights on the page [Book Review Stats 📈](https://deepaksbookrecommendationtool.streamlit.app/Book_Review_Stats_%F0%9F%93%88):
 - Top 100 books by count of reviews and average score.
 - Top 10 authors by total reviews, with a breakdown of their reviews by book title.
 - Top 100 non-fiction books.
+![image](https://github.com/deemani/portfolio/assets/37217825/fc12f09a-6da7-4978-a2dc-7759ff438dba)
+
 
 ## Data Cleaning & Functions
 The raw data used for generating book recommendations is not hosted in the repository due to its large size. However, the process of cleaning and preprocessing the raw data is documented in the books_import.py file within the project. This file contains detailed information on how the raw data was cleaned and formatted for use in the Amazon Book Recommendation Tool. 
